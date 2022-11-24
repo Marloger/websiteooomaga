@@ -1,0 +1,209 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 3200px;
+    background-color: var(--bg-primary);
+}
+
+
+
+:root {
+    --bg-primary: rgb(65, 90, 255);
+    --bg-secondary: rgb(249, 253, 253);
+    --text-primary: #f7f7f7;
+    --text-secondary: rgb(32, 32, 32);
+    --icons-bg-primary: tomato;
+    --icons-bg-secondary: #477777;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid white;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    padding: 32px;
+    margin: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(32, 32, 32);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.wrapper {
+   width: 100%;
+   height: auto;
+   display: flex; 
+   justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+    background-color: var(--bg-primary);
+}
+    
+.icons {
+    font-size: 24px;
+    color: var(--icons-bg-primary);
+}
+
+.title {
+    font-size: 2em;
+}
+
+.icons {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    color: var(--icons-bg-primary);
+}
+
+.description {
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+.btn {
+    margin-top: 6px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Silkscreen', cursive;
+}
+
+.btn:hover {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.cerita {
+    text-align: center;
+    font-size: medium;
+}
+
+.ceritav2 {
+    height: 150px;
+    background-color: var(--bg-secondary);
+    text-align: center;
+    margin: 1px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: small;
+    box-shadow: 2px 2px 2px 2px rgb(32, 32, 32);
+    animation: slide-up 2s;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.dogdescription {
+    text-align: center;
+    color: black;
+    font-size: larger;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(32, 32, 32);
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 2px;
+}
+
+.judul {
+    text-align: center;
+    font-size: 72px;
+    color: white;
+    margin: auto;
+    padding: auto;
+    background-color: var(--bg-primary);
+    background-image: url(./background\ website\ arlo.png);
+}
+
+.buttonaboutaurel {
+    margin-top: 6px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Silkscreen', cursive;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.buttonaboutaurel:hover {
+    background-color: pink;
+    color: black;
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.title-arlo {
+    text-align: center;
+}
+
+.description-arlo {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(32, 32, 32);
+    margin-top: 10px;
+}
+
+.title-hobi {
+    text-align: center;
+}
+
+.description-hobi {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.title-game {
+    text-align: center;
+}
+
+.description-game {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.foto-minecraft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(32, 32, 32);
+    margin-top: 10px;
+}
